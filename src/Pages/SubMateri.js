@@ -32,6 +32,7 @@ export default class SubMateri extends Component {
     this.fetchSubMateri();
   }
 
+  // TODO: add condition to determine if material is video, slide, document, or interactive
   render() {
     return (
       <div>
